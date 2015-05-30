@@ -13,7 +13,34 @@
 #shortbio {
 	background: #f9f9f9;
 	padding: 1em;
+	margin-bottom: 1.5em;
 }
 #footer {
-	background-color: darken(#745C97,6.5%);
+	background: darken(#745C97,6.5%);
+	color: #fff;
+	margin-top: 40px;
+	padding-top: 40px;
+    padding-bottom: 60px;
+    width: 100%;
+	ul {
+
+	}
+	li {
+		color: #fff;
+		list-style: none;
+		padding: 1em;
+		a {
+			color: lighten(#745C97,19%);
+			text-decoration: none;
+			&:hover {
+			color: #fff;
+			}
+		}
+		.menuname {
+			color: white;
+		}
+		i {
+			font-size: 2em;
+		}
+	}
 }
