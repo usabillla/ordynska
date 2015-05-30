@@ -40,17 +40,33 @@
             <span class="icon-bar"></span>
           </button>
           <a class="navbar-brand" href="#">Елена Ордынская</a>
+<!--           <p class="navbar-text">Психолог, Психотерапевт</p> -->
         </div>
         <div id="navbar" class="navbar-collapse collapse">
-          <form class="navbar-form navbar-right">
-            <div class="form-group">
-              <input type="text" placeholder="Email" class="form-control">
-            </div>
-            <div class="form-group">
-              <input type="password" placeholder="Password" class="form-control">
-            </div>
-            <button type="submit" class="btn btn-success">Sign in</button>
-          </form>
+          <ul class="nav navbar-nav">
+              <li class="active"><a href="#">Главная <span class="sr-only">(current)</span></a></li>
+              <li><a href="#">Обо мне</a></li>
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Консультирование <span class="caret"></span></a>
+                <ul class="dropdown-menu" role="menu">
+                  <li><a href="#">Индивидуальная консультация</a></li>
+                  <li><a href="#">Индивидуальная психотерапия</a></li>
+                  <li class="divider"></li>
+                  <li><a href="#">Детский психолог</a></li>
+                  <li><a href="#">Семейная психотерапия</a></li>
+                </ul>
+              </li>
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Блог <span class="caret"></span></a>
+                <ul class="dropdown-menu" role="menu">
+                  <li><a href="#">Статьи</a></li>
+                  <li><a href="#">Видео</a></li>
+                </ul>
+              </li>
+              <li><a href="#">Стоиомсть</a></li>
+              <li><a href="#">Контакты</a></li> 
+          </ul>
+          <button type="button" class="btn btn-success navbar-btn">Запись на консультацию</button>
         </div><!--/.navbar-collapse -->
       </div>
     </nav>
@@ -96,7 +112,7 @@
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-    <script src="../../dist/js/bootstrap.min.js"></script>
+    <script src="assets/javascripts/bootstrap.js"></script>
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
   </body>
