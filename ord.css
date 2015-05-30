@@ -5641,6 +5641,10 @@ button.close {
     color: #fff; }
 
 #shortbio {
-  background: #f9f9f9; }
+  background: #f9f9f9;
+  padding: 1em; }
+
+#footer {
+  background-color: #644f82; }
 
 /*# sourceMappingURL=ord.css.map */
