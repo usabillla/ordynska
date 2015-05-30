@@ -2,9 +2,15 @@
 
 
 .jumbotron {
-	// background-color: #745C97;
-	background-image: url(assets/images/olena.jpg);
+	background-color: #745C97;
+	// margin-bottom: 0;
+	// background-image: url(assets/images/olena.jpg);
 	h1 {
 		color: #fff;
 	}
+}
+
+#shortbio {
+	background: #f9f9f9;
+	// padding: 1.5em;
 }
