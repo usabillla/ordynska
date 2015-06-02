@@ -7444,16 +7444,11 @@ button.close {
   width: 100%; }
   #footer li {
     color: #fff;
-    list-style: none;
-    padding: 1em; }
+    list-style: none; }
     #footer li a {
       color: #a695bf;
       text-decoration: none; }
       #footer li a:hover {
         color: #fff; }
-    #footer li .menuname {
-      color: white; }
-    #footer li i {
-      font-size: 2em; }
 
 /*# sourceMappingURL=ord.css.map */
